@@ -1,146 +1,216 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>یاشاوین | نمونه کار حرفه‌ای</title>
-    <!-- استایل‌ها و آیکون‌ها -->
+    <title>یاشاوین | تولیدکننده در و پنجره دوجداره UPVC</title>
+    <meta name="description" content="یاشاوین: فراتر از استاندارد، هنر مهندسی در و پنجره دوجداره UPVC با ۲۲ سال سابقه درخشان با مدیریت احمد جلالی">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
 
-    <!-- هدر و منوی ناوبری -->
+    <!-- هدر و منو -->
     <header id="header">
         <div class="container nav-container">
-            <a href="#" class="logo">یاشاوین<span>.</span></a>
+            <a href="#" class="logo">
+                <span class="brand-title">YASHAWIN</span>
+                <span class="brand-sub">یاشاوین</span>
+            </a>
             <nav>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#hero">صفحه اصلی</a></li>
-                    <li><a href="#about">درباره من</a></li>
-                    <li><a href="#skills">مهارت‌ها</a></li>
-                    <li><a href="#projects">پروژه‌ها</a></li>
-                    <li><a href="#contact">تماس با من</a></li>
+                    <li><a href="#about">درباره ما</a></li>
+                    <li><a href="#features">مزایا</a></li>
+                    <li><a href="#profiles">پروفیل‌ها</a></li>
+                    <li><a href="#faq">سوالات متداول</a></li>
+                    <li><a href="#contact">تماس و آدرس</a></li>
                 </ul>
             </nav>
-            <div class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
+            <div class="header-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="تغییر تم">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- بخش اصلی (Hero) -->
     <section id="hero" class="hero">
-        <div class="container hero-content" data-aos="fade-up">
-            <h1>طراحی، توسعه و خلق <span class="highlight">تجربه‌های دیجیتال</span></h1>
-            <p>ما ایده‌های شما را با بالاترین کیفیت، سرعت و انیمیشن‌های روان به وب‌سایت‌های حرفه‌ای تبدیل می‌کنیم.</p>
+        <div class="container hero-content">
+            <span class="badge">صنعت‌گر | ۲۲ سال سابقه درخشان</span>
+            <h1>یاشاوین: فراتر از استاندارد، <br><span class="highlight">هنر مهندسی در و پنجره</span></h1>
+            <p>تولیدکننده در و پنجره‌های دوجداره UPVC با مدیریت احمد جلالی. تلفیق هنر، مهندسی و بالاترین کیفیت ساخت.</p>
             <div class="hero-btns">
-                <a href="#projects" class="btn btn-primary">مشاهده پروژه‌ها</a>
-                <a href="#contact" class="btn btn-outline">ارتباط با من</a>
+                <a href="#contact" class="btn btn-primary">درخواست مشاوره رایگان</a>
+                <a href="tel:09124091654" class="btn btn-outline"><i class="fas fa-phone"></i> تماس مستقیم</a>
             </div>
         </div>
     </section>
 
-    <!-- درباره من -->
+    <!-- درباره یاشاوین -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">درباره من</h2>
             <div class="about-grid">
-                <div class="about-img" data-aos="fade-left">
-                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="درباره یاشاوین">
+                <div class="about-image-card">
+                    <div class="svg-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="200" height="200" rx="20" fill="var(--card-svg-bg)"/>
+                            <path d="M40 40 H160 V160 H40 Z" fill="none" stroke="var(--primary)" stroke-width="8"/>
+                            <path d="M100 40 V160 M40 100 H160" stroke="var(--primary)" stroke-width="6"/>
+                            <circle cx="100" cy="100" r="12" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <div class="manager-badge">
+                        <h4>احمد جلالی</h4>
+                        <p>مدیریت عامل - ۲۲ سال سابقه در صنعت UPVC</p>
+                    </div>
                 </div>
-                <div class="about-text" data-aos="fade-right">
-                    <h3>توسعه‌دهنده و طراح وب‌سایت‌های مدرن</h3>
-                    <p>با سال‌ها تجربه در زمینه توسعه نرم‌افزار و طراحی رابط کاربری، تلاش می‌کنم تا پروژه‌ها را با بهینه‌ترین ساختار، کدهای استاندارد و تجربه‌کاربری بی‌نقص پیاده‌سازی کنم.</p>
-                    <div class="stats">
+                <div class="about-text">
+                    <h2 class="section-title text-right">درباره یاشاوین</h2>
+                    <p>ما در یاشاوین، با تلفیق هنر و مهندسی، برای شما راحتی، آرامش و زیبایی به ارمغان می‌آوریم. استفاده از بهترین متریال و تخصصِ ۲۲ ساله‌ی مدیریتِ آقای احمد جلالی، ضامنِ کیفیتِ برترِ محصولاتِ ماست.</p>
+                    <p class="highlight-p">هدف ما فراتر از تولید است؛ ما به دنبال ایجاد فضایی امن و باکیفیت برای شما هستیم.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مزایای در و پنجره‌های UPVC -->
+    <section id="features" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">مزایای در و پنجره‌های UPVC یاشاوین</h2>
+            <div class="grid-4">
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="fas fa-temperature-low"></i></div>
+                    <h3>عایق حرارتی</h3>
+                    <p>صرفه‌جویی چشمگیر در انرژی با کاهش اتلاف گرما و سرما در تمامی فصول سال.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="fas fa-volume-mute"></i></div>
+                    <h3>عایق صوتی</h3>
+                    <p>کاهش آلودگی صوتی محیط برای تجربه‌ی سکوت و آرامش کامل در فضای داخلی.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+                    <h3>مقاوم و بادوام</h3>
+                    <p>مقاومت بالا در برابر شرایط آب و هوایی سخت، ضربه، رطوبت و اشعه خورشید.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="fas fa-pump-soap"></i></div>
+                    <h3>شستشوی آسان</h3>
+                    <p>بهداشت بالا، تمیز شدن ساده و بدون نیاز به رنگ‌آمیزی و نگهداری مداوم.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فناوری پروفیل‌های ما -->
+    <section id="profiles" class="section">
+        <div class="container">
+            <h2 class="section-title">فناوری پروفیل‌های ما</h2>
+            <p class="section-sub">یاشاوین مفتخر است که منحصراً از پروفیل‌های شرکت‌های معتبر ویتانوا و هارمونی استفاده می‌کند.</p>
+            
+            <div class="grid-2">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <h3>VITA-NOVA</h3>
+                        <span class="tag">استاندارد اروپا</span>
+                    </div>
+                    <h4>پروفیل ویتانوا</h4>
+                    <p>سری اختصاصی و باکیفیت بالا، ساخته شده طبق دقیق‌ترین استانداردهای بین‌المللی برای دوام طولانی‌مدت.</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <h3>HARMONY+</h3>
+                        <span class="tag">طراحی مدرن</span>
+                    </div>
+                    <h4>پروفیل هارمونی پلاس</h4>
+                    <p>پروفیل مدرن و بسیار مقاوم با طراحی شبکه‌ای بهینه جهت حداکثر استحکام و عایق‌بندی.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- سوالات متداول -->
+    <section id="faq" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">سوالات متداول</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">چگونه می‌توانم از یاشاوین مشاوره بگیرم؟ <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>شما می‌توانید از طریق شماره تلفن‌های ۰۹۱۲۴۰۹۱۶۵۴ و ۰۹۳۹۴۰۹۱۶۵۴ یا فرم تماس، با کارشناسان ما ارتباط برقرار کرده و مشاوره رایگان دریافت کنید.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">تفاوت پروفیل‌های ویتانوا و هارمونی چیست؟ <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>پروفیل ویتانوا بر اساس استانداردهای اروپایی و سری اختصاصی تولید می‌شود و پروفیل هارمونی پلاس دارای ساختار شبکه‌ای بهینه‌شده برای مقاومت بالا در شرایط اقلیمی سخت است.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">نحوه اندازه‌گیری و نصب پنجره‌ها به چه صورت است؟ <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>تیم متخصص یاشاوین پس از ثبت درخواست اولیه، در محل حضور یافته، اندازه‌گیری دقیق را انجام داده و مراحل تولید و نصب استاندارد را اجرا می‌کند.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">آیا پنجره‌های دوجداره UPVC نیاز به نگهداری خاصی دارند؟ <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>خیر، این پنجره‌ها نیاز به رنگ‌آمیزی ندارند و تنها با شستشوی ساده تمیز می‌شوند. همچنین یراق‌آلات آن جهت کارکرد بهتر سالی یک‌بار روان‌کاری ساده نیاز دارند.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس و آدرس کارخانه -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">تماس با ما و آدرس کارخانه</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-user-tie"></i>
                         <div>
-                            <h4>+۵۰</h4>
-                            <p>پروژه موفق</p>
+                            <h4>مدیریت</h4>
+                            <p>احمد جلالی</p>
                         </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
                         <div>
-                            <h4>+۵</h4>
-                            <p>سال تجربه</p>
+                            <h4>شماره‌های تماس</h4>
+                            <p><a href="tel:09124091654">۰۹۱۲۴۰۹۱۶۵۴</a></p>
+                            <p><a href="tel:09394091654">۰۹۳۹۴۰۹۱۶۵۴</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>پست الکترونیک</h4>
+                            <p><a href="mailto:yashawinupvc@gmail.com">yashawinupvc@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>آدرس کارخانه</h4>
+                            <p>استان گیلان، رشت، سنگر، کیلومتر سه جاده سنگر به کوچصفهان، پانصد متر بعد از تالار مارلیک</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- مهارت‌ها -->
-    <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">مهارت‌های فنی</h2>
-            <div class="skills-grid">
-                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5 & CSS3</h3>
-                    <p>طراحی ساختاریافته و استایل‌دهی پیشرفته ریسپانسیو</p>
-                </div>
-                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>توسعه برنامه‌های تعاملی و پویای وب</p>
-                </div>
-                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
-                    <i class="fab fa-react"></i>
-                    <h3>React & UI</h3>
-                    <p>پیاده‌سازی رابط‌های کاربری مدرن و تک‌صفحه‌ای</p>
-                </div>
-                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Responsive Design</h3>
-                    <p>سازگاری کامل با تمامی دستگاه‌ها و موبایل</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- پروژه‌ها -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">پروژه‌های برتر</h2>
-            <div class="projects-grid">
-                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80" alt="پروژه ۱">
-                    <div class="project-info">
-                        <h3>داشبورد مدیریت پیشرفته</h3>
-                        <p>طراحی رابط کاربری مدیریتی با نمودارهای پویا و سرعت بالا.</p>
-                        <a href="#" class="project-link">مشاهده جزئیات <i class="fas fa-arrow-left"></i></a>
+                <div class="map-box">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>موقعیت کارخانه یاشاوین</h4>
+                        <p>گیلان، رشت، سنگر، کیلومتر ۳ جاده کوچصفهان</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline btn-sm">مشاهده در گوگل مپ</a>
                     </div>
                 </div>
-                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=500&q=80" alt="پروژه ۲">
-                    <div class="project-info">
-                        <h3>اپلیکیشن وب مدرن</h3>
-                        <p>توسعه وب‌اپلیکیشن تعاملی با انیمیشن‌های روان و بهینه.</p>
-                        <a href="#" class="project-link">مشاهده جزئیات <i class="fas fa-arrow-left"></i></a>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="پروژه ۳">
-                    <div class="project-info">
-                        <h3>سایت فروشگاهی و خدماتی</h3>
-                        <p>پیاده‌سازی پلتفرم تجاری با تجربه کاربری بی‌نقص.</p>
-                        <a href="#" class="project-link">مشاهده جزئیات <i class="fas fa-arrow-left"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- تماس با من -->
-    <section id="contact" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">تماس با من</h2>
-            <div class="contact-wrapper" data-aos="fade-up">
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="نام شما" required>
-                    <input type="email" placeholder="ایمیل شما" required>
-                    <textarea rows="5" placeholder="پیام خود را بنویسید..." required></textarea>
-                    <button type="submit" class="btn btn-primary">ارسال پیام</button>
-                </form>
             </div>
         </div>
     </section>
@@ -148,17 +218,11 @@
     <!-- فوتر -->
     <footer>
         <div class="container footer-content">
-            <p>تمامی حقوق محفوظ است &copy; ۲۰۲۶ | یاشاوین</p>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-telegram"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+            <p>کلیه حقوق مادی و معنوی این سایت متعلق به شرکت یاشاوین می‌باشد.</p>
+            <p class="dev-credits">طراحی و توسعه: <strong>@yashawinupvc</strong></p>
         </div>
     </footer>
 
-    <!-- اسکریپت‌ها -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
