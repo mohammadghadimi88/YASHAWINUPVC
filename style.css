@@ -503,3 +503,77 @@ footer {
         text-align: center;
     }
 }
+
+/* استایل‌های بخش آلومینیوم */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.aluminum-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aluminum-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.aluminum-header i {
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.aluminum-header h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.aluminum-badge {
+    align-self: flex-start;
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.aluminum-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.aluminum-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 15px;
+}
+
+.aluminum-list li {
+    font-size: 0.88rem;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aluminum-list li i {
+    color: var(--accent);
+    font-size: 0.8rem;
+}
